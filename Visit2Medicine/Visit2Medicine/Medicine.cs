@@ -38,7 +38,7 @@ namespace Visit2Medicine
             this.price = price;
         }
         /// <summary>
-        /// 抽象元素接收访问者，访问者对象作为参数
+        /// 抽象元素接收访问者，访问者对象作为参数，具体元素继承自抽象元素
         /// </summary>
         /// <param name="visitor"></param>
         public abstract void Accept(Visitor visitor);
